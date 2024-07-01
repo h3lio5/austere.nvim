@@ -25,7 +25,7 @@ nvim-restore:
 # Removes the current neovim config and installs the austere config
 nvim:
   rm -rf ~/.config/nvim
-  cp -R ./ ~/.config
+  cp -R ./ ~/.config/nvim
 
 # Backup the current neovim config
 nvim-backup:
